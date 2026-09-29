@@ -8,8 +8,12 @@ export const siteConfig = {
   tagline: 'Trekking, Tours & Adventures in the Himalayas',
   description:
     'Kiteice Travel and Treks is a Kathmandu-based trekking and tour operator offering Everest, Annapurna, Langtang and Manaslu treks, peak climbing and cultural tours in Nepal, Tibet and Bhutan.',
-  // Set NEXT_PUBLIC_SITE_URL to your real domain in production (e.g. https://www.kiteicetreks.com)
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
+  // Set NEXT_PUBLIC_SITE_URL to your real domain once you have one (e.g. https://www.kiteicetreks.com).
+  // On Vercel it falls back to the project's production URL automatically.
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL && `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`) ||
+    'http://localhost:3000',
   locale: 'en_US',
   keywords: [
     'Nepal trekking',
