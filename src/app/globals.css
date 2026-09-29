@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* Brand tokens: use as bg-brand, text-ink, bg-ice, etc. */
+@theme {
+  --color-ink: #0b3b60;          /* deep Himalayan blue – headings, header, footer */
+  --color-ink-light: #164f7c;
+  --color-brand: #f28c28;        /* sunrise orange – buttons and highlights */
+  --color-brand-dark: #d9731a;
+  --color-ice: #e8f3fa;          /* pale glacier blue – section backgrounds */
+  --color-muted: #5b6b7a;
+
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-heading: var(--font-poppins), system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-slate-700 antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading font-semibold text-ink;
+  }
+  /* Anchor targets shouldn't hide under the sticky header */
+  [id] {
+    scroll-margin-top: 7rem;
+  }
+}
+
+/* Long-form text (blog posts, trip overview) */
+@layer components {
+  .prose-content p {
+    @apply mb-4 leading-relaxed;
+  }
+  .prose-content h2 {
+    @apply mt-10 mb-3 text-2xl;
+  }
+}
