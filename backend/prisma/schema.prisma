@@ -1,0 +1,291 @@
+// Kiteice Treks database schema (MySQL 8+).
+// Docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider               = "prisma-client"
+  output                 = "../src/generated/prisma"
+  moduleFormat           = "esm"
+  runtime                = "nodejs"
+  generatedFileExtension = "ts"
+  importFileExtension    = "ts"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+enum Difficulty {
+  easy
+  moderate
+  challenging
+  strenuous
+}
+
+enum InquiryType {
+  booking
+  inquiry
+  custom
+}
+
+enum Role {
+  admin
+  editor
+}
+
+enum InquiryStatus {
+  new
+  contacted
+  confirmed
+  closed
+}
+
+/// Countries we operate in (Nepal, Tibet, Bhutan…)
+model Destination {
+  id              Int      @id @default(autoincrement())
+  slug            String   @unique @db.VarChar(120)
+  name            String   @db.VarChar(120)
+  tagline         String?  @db.VarChar(255)
+  description     String   @db.Text
+  image           String   @db.VarChar(500)
+  metaTitle       String?  @db.VarChar(160)
+  metaDescription String?  @db.VarChar(320)
+  sortOrder       Int      @default(0)
+  isPublished     Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  regions Region[]
+  trips   Trip[]
+
+  @@index([isPublished, sortOrder])
+}
+
+/// Trekking regions inside a destination (Everest, Annapurna…)
+model Region {
+  id              Int      @id @default(autoincrement())
+  slug            String   @unique @db.VarChar(120)
+  name            String   @db.VarChar(120)
+  destinationId   Int
+  description     String   @db.Text
+  image           String   @db.VarChar(500)
+  metaTitle       String?  @db.VarChar(160)
+  metaDescription String?  @db.VarChar(320)
+  sortOrder       Int      @default(0)
+  isPublished     Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  destination Destination @relation(fields: [destinationId], references: [id], onDelete: Restrict)
+  trips       Trip[]
+
+  @@index([destinationId])
+  @@index([isPublished, sortOrder])
+}
+
+/// Trip types (Trekking, Peak Climbing, Tours…)
+model Activity {
+  id              Int      @id @default(autoincrement())
+  slug            String   @unique @db.VarChar(120)
+  name            String   @db.VarChar(120)
+  icon            String?  @db.VarChar(16)
+  description     String   @db.Text
+  image           String   @db.VarChar(500)
+  metaTitle       String?  @db.VarChar(160)
+  metaDescription String?  @db.VarChar(320)
+  sortOrder       Int      @default(0)
+  isPublished     Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  trips Trip[]
+
+  @@index([isPublished, sortOrder])
+}
+
+model Trip {
+  id            Int        @id @default(autoincrement())
+  slug          String     @unique @db.VarChar(160)
+  title         String     @db.VarChar(200)
+  destinationId Int
+  regionId      Int?
+  activityId    Int
+  featured      Boolean    @default(false)
+  durationDays  Int        @db.SmallInt
+  difficulty    Difficulty
+  maxAltitude   Int?
+  price         Decimal    @db.Decimal(10, 2)
+  currency      String     @default("USD") @db.Char(3)
+  groupSize     String?    @db.VarChar(40)
+  bestSeason    String?    @db.VarChar(120)
+  startEnd      String?    @db.VarChar(160)
+  accommodation String?    @db.VarChar(255)
+  image         String     @db.VarChar(500)
+  summary       String     @db.Text
+  /// Ordered lists of strings. Stored as JSON because they are always read/written as a whole.
+  overview      Json
+  highlights    Json
+  includes      Json
+  excludes      Json
+  metaTitle       String?  @db.VarChar(160)
+  metaDescription String?  @db.VarChar(320)
+  sortOrder     Int        @default(0)
+  isPublished   Boolean    @default(true)
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  destination  Destination    @relation(fields: [destinationId], references: [id], onDelete: Restrict)
+  region       Region?        @relation(fields: [regionId], references: [id], onDelete: SetNull)
+  activity     Activity       @relation(fields: [activityId], references: [id], onDelete: Restrict)
+  itinerary    ItineraryDay[]
+  faqs         TripFaq[]
+  inquiries    Inquiry[]
+  testimonials Testimonial[]
+
+  @@index([isPublished, featured, sortOrder])
+  @@index([destinationId])
+  @@index([regionId])
+  @@index([activityId])
+  @@index([difficulty])
+}
+
+model ItineraryDay {
+  id          Int     @id @default(autoincrement())
+  tripId      Int
+  day         Int     @db.SmallInt
+  title       String  @db.VarChar(255)
+  description String  @db.Text
+
+  trip Trip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+
+  @@unique([tripId, day])
+}
+
+model TripFaq {
+  id        Int    @id @default(autoincrement())
+  tripId    Int
+  question  String @db.VarChar(255)
+  answer    String @db.Text
+  sortOrder Int    @default(0)
+
+  trip Trip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+
+  @@index([tripId, sortOrder])
+}
+
+model Post {
+  id          Int       @id @default(autoincrement())
+  slug        String    @unique @db.VarChar(160)
+  title       String    @db.VarChar(255)
+  excerpt     String    @db.Text
+  image       String    @db.VarChar(500)
+  author      String    @db.VarChar(120)
+  /// [{ heading: string, paragraphs: string[] }]
+  sections    Json
+  metaTitle       String? @db.VarChar(160)
+  metaDescription String? @db.VarChar(320)
+  isPublished Boolean   @default(true)
+  publishedAt DateTime
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  tags Tag[]
+
+  @@index([isPublished, publishedAt])
+}
+
+model Tag {
+  id    Int    @id @default(autoincrement())
+  slug  String @unique @db.VarChar(80)
+  name  String @db.VarChar(80)
+  posts Post[]
+}
+
+model Testimonial {
+  id          Int      @id @default(autoincrement())
+  name        String   @db.VarChar(120)
+  country     String?  @db.VarChar(80)
+  /// Trip label shown on the card; tripId links to a real trip when there is one
+  tripName    String?  @db.VarChar(200)
+  tripId      Int?
+  rating      Int      @default(5) @db.TinyInt
+  quote       String   @db.Text
+  sortOrder   Int      @default(0)
+  isPublished Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  trip Trip? @relation(fields: [tripId], references: [id], onDelete: SetNull)
+
+  @@index([isPublished, sortOrder])
+  @@index([tripId])
+}
+
+/// Booking / enquiry form submissions
+model Inquiry {
+  id         Int           @id @default(autoincrement())
+  type       InquiryType   @default(booking)
+  status     InquiryStatus @default(new)
+  tripId     Int?
+  fullName   String        @db.VarChar(120)
+  email      String        @db.VarChar(190)
+  phone      String?       @db.VarChar(40)
+  country    String?       @db.VarChar(80)
+  travelDate DateTime?     @db.Date
+  travellers Int?          @db.SmallInt
+  message    String?       @db.Text
+  /// Internal notes from the team (never shown publicly)
+  notes      String?       @db.Text
+  ipAddress  String?       @db.VarChar(45)
+  userAgent  String?       @db.VarChar(255)
+  createdAt  DateTime      @default(now())
+  updatedAt  DateTime      @updatedAt
+
+  trip Trip? @relation(fields: [tripId], references: [id], onDelete: SetNull)
+
+  @@index([status, createdAt])
+  @@index([email])
+  @@index([tripId])
+}
+
+/// Dashboard users. `admin` can also manage users; `editor` manages content and enquiries.
+model User {
+  id           Int       @id @default(autoincrement())
+  email        String    @unique @db.VarChar(190)
+  name         String    @db.VarChar(120)
+  passwordHash String    @db.VarChar(255)
+  role         Role      @default(editor)
+  isActive     Boolean   @default(true)
+  /// Bumped on password change / deactivation to invalidate existing login tokens
+  tokenVersion Int       @default(0)
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  media Media[]
+}
+
+/// Site-wide settings stored as JSON per key: company, contact, social
+model Setting {
+  key       String   @id @db.VarChar(64)
+  value     Json
+  updatedAt DateTime @updatedAt
+}
+
+/// Uploaded images (optimized to WebP on upload)
+model Media {
+  id           Int      @id @default(autoincrement())
+  /// Public path, e.g. /uploads/2026/09/everest-3f9a1c2b.webp
+  url          String   @unique @db.VarChar(500)
+  originalName String   @db.VarChar(255)
+  mimeType     String   @db.VarChar(80)
+  width        Int
+  height       Int
+  size         Int
+  alt          String?  @db.VarChar(255)
+  uploadedById Int?
+  createdAt    DateTime @default(now())
+
+  uploadedBy User? @relation(fields: [uploadedById], references: [id], onDelete: SetNull)
+
+  @@index([createdAt])
+}

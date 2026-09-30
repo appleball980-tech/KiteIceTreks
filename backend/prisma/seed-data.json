@@ -1,0 +1,1083 @@
+{
+  "destinations": [
+    {
+      "slug": "nepal",
+      "name": "Nepal",
+      "image": "https://images.unsplash.com/photo-1486911278844-a81c5267e227?auto=format&fit=crop&w=1600&q=75",
+      "tagline": "Home of Everest and eight of the world’s ten highest peaks",
+      "description": "From the Everest and Annapurna trekking trails to the temples of the Kathmandu Valley, Nepal is the heart of Himalayan adventure. Choose a classic teahouse trek, a remote camping route, a trekking peak or a relaxed cultural tour.",
+      "metaTitle": "Nepal Trekking & Tour Packages",
+      "metaDescription": "Explore Nepal with local experts: Everest Base Camp, Annapurna, Langtang and Manaslu treks, peak climbing and Kathmandu Valley tours. Best prices, licensed guides."
+    },
+    {
+      "slug": "tibet",
+      "name": "Tibet",
+      "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?auto=format&fit=crop&w=1600&q=75",
+      "tagline": "The Roof of the World",
+      "description": "Visit Lhasa’s Potala Palace and Jokhang Temple, cross high plateau passes and see the north face of Everest. We handle Tibet Travel Permits and Chinese group visas from Kathmandu.",
+      "metaTitle": "Tibet Tour Packages from Nepal",
+      "metaDescription": "Tibet tours from Kathmandu: Lhasa city tours, Everest Base Camp (north side) and overland journeys. Permits and group visas arranged by our Kathmandu team."
+    },
+    {
+      "slug": "bhutan",
+      "name": "Bhutan",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=75",
+      "tagline": "The Land of the Thunder Dragon",
+      "description": "Bhutan’s fortress monasteries, prayer-flag passes and the cliffside Tiger’s Nest make it one of Asia’s most rewarding cultural journeys. Tours include visa processing and a licensed Bhutanese guide.",
+      "metaTitle": "Bhutan Tour Packages",
+      "metaDescription": "Bhutan cultural tours: Paro, Thimphu, Punakha and the Tiger’s Nest hike. All-inclusive packages with visa support and licensed local guides."
+    }
+  ],
+  "regions": [
+    {
+      "slug": "everest",
+      "name": "Everest Region",
+      "destination": "nepal",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=75",
+      "description": "The Khumbu is home to Mount Everest (8,848.86 m), Sherpa villages, ancient monasteries and some of the most famous trekking routes in the world.",
+      "metaTitle": "Everest Region Treks",
+      "metaDescription": "Everest region trekking packages: Everest Base Camp trek, Island Peak climbing and more in the Khumbu. Sherpa guides, teahouse lodges, fixed departures."
+    },
+    {
+      "slug": "annapurna",
+      "name": "Annapurna Region",
+      "destination": "nepal",
+      "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?auto=format&fit=crop&w=1600&q=75",
+      "description": "Nepal’s most diverse trekking region: rhododendron forests, Gurung villages, hot springs and a natural amphitheatre of peaks at Annapurna Base Camp.",
+      "metaTitle": "Annapurna Region Treks",
+      "metaDescription": "Annapurna region treks including Annapurna Base Camp and Annapurna Circuit. Great views of Machhapuchhre, easy access from Pokhara."
+    },
+    {
+      "slug": "langtang",
+      "name": "Langtang Region",
+      "destination": "nepal",
+      "image": "https://images.unsplash.com/photo-1581791534721-e599df4417f7?auto=format&fit=crop&w=1600&q=75",
+      "description": "Close to Kathmandu yet wild and uncrowded, Langtang offers glaciers, yak pastures and warm Tamang hospitality on short, rewarding treks.",
+      "metaTitle": "Langtang Region Treks",
+      "metaDescription": "Langtang Valley trek packages near Kathmandu. Short, scenic treks to Kyanjin Gompa with Tamang culture and glacier views."
+    },
+    {
+      "slug": "manaslu",
+      "name": "Manaslu Region",
+      "destination": "nepal",
+      "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=75",
+      "description": "A restricted area trek around the world’s eighth highest mountain, crossing the Larkya La pass through remote Tibetan-Buddhist villages.",
+      "metaTitle": "Manaslu Region Treks",
+      "metaDescription": "Manaslu Circuit trek packages with restricted area permits, licensed guides and teahouse accommodation. Cross the Larkya La (5,106 m)."
+    }
+  ],
+  "activities": [
+    {
+      "slug": "trekking",
+      "name": "Trekking",
+      "icon": "🥾",
+      "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1600&q=75",
+      "description": "Multi-day teahouse treks through the Himalayas, from short family-friendly walks to high passes and base camps.",
+      "metaTitle": "Trekking in Nepal – Trek Packages",
+      "metaDescription": "Best trekking packages in Nepal: Everest Base Camp, Annapurna Base Camp, Langtang Valley and Manaslu Circuit with licensed local guides."
+    },
+    {
+      "slug": "peak-climbing",
+      "name": "Peak Climbing",
+      "icon": "🏔️",
+      "image": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1600&q=75",
+      "description": "Climb your first Himalayan summit. Trekking peaks like Island Peak combine a classic trek with a guided, roped ascent above 6,000 m.",
+      "metaTitle": "Peak Climbing in Nepal",
+      "metaDescription": "Guided peak climbing in Nepal, including Island Peak (6,189 m). Climbing permits, experienced climbing guides and full equipment support."
+    },
+    {
+      "slug": "tours",
+      "name": "Tours",
+      "icon": "🛕",
+      "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?auto=format&fit=crop&w=1600&q=75",
+      "description": "Cultural and sightseeing tours across Nepal, Tibet and Bhutan: UNESCO heritage sites, monasteries, wildlife and mountain views without the long walks.",
+      "metaTitle": "Nepal, Tibet & Bhutan Tours",
+      "metaDescription": "Cultural tour packages: Kathmandu Valley heritage tour, Lhasa tour in Tibet and Bhutan highlights with Tiger’s Nest."
+    }
+  ],
+  "trips": [
+    {
+      "slug": "everest-base-camp-trek",
+      "title": "Everest Base Camp Trek",
+      "destination": "nepal",
+      "region": "everest",
+      "activity": "trekking",
+      "featured": true,
+      "durationDays": 14,
+      "difficulty": "challenging",
+      "maxAltitude": 5545,
+      "price": 1450,
+      "groupSize": "1–12",
+      "bestSeason": "Mar–May, Sep–Nov",
+      "startEnd": "Kathmandu / Kathmandu",
+      "accommodation": "Hotel in Kathmandu, teahouses on trek",
+      "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1600&q=75",
+      "summary": "Trek through Sherpa villages and the Khumbu glacier to the foot of the world’s highest mountain, with sunrise over Everest from Kala Patthar.",
+      "overview": [
+        "The Everest Base Camp Trek is the most famous trek in Nepal. After a thrilling mountain flight to Lukla, you follow the Dudh Koshi valley to Namche Bazaar, the Sherpa capital, and continue past Tengboche Monastery to the high villages of Dingboche and Lobuche.",
+        "Two acclimatization days are built in to help your body adjust to the altitude. The highlight is standing at Everest Base Camp (5,364 m) and climbing Kala Patthar (5,545 m) for the best close-up view of Everest, Lhotse and Nuptse."
+      ],
+      "highlights": [
+        "Scenic flight to Tenzing-Hillary Airport, Lukla",
+        "Namche Bazaar and Sherpa culture",
+        "Tengboche Monastery with Ama Dablam views",
+        "Everest Base Camp and the Khumbu Icefall",
+        "Sunrise over Everest from Kala Patthar (5,545 m)"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kathmandu (1,400 m)",
+          "description": "Airport pick-up, hotel transfer and trip briefing."
+        },
+        {
+          "day": 2,
+          "title": "Fly to Lukla (2,860 m), trek to Phakding (2,610 m)",
+          "description": "Mountain flight and a gentle first walk along the Dudh Koshi river."
+        },
+        {
+          "day": 3,
+          "title": "Trek to Namche Bazaar (3,440 m)",
+          "description": "Cross the Hillary suspension bridge and climb to the Sherpa capital with first views of Everest."
+        },
+        {
+          "day": 4,
+          "title": "Acclimatization day in Namche",
+          "description": "Hike to the Everest View Hotel and visit the Sherpa museum."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Tengboche (3,860 m)",
+          "description": "Walk above the river to the famous monastery facing Ama Dablam."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Dingboche (4,410 m)",
+          "description": "Enter the Imja valley with stone-walled fields and big mountain views."
+        },
+        {
+          "day": 7,
+          "title": "Acclimatization day in Dingboche",
+          "description": "Hike to Nangkartshang viewpoint for Makalu and Lhotse views."
+        },
+        {
+          "day": 8,
+          "title": "Trek to Lobuche (4,940 m)",
+          "description": "Pass the climbers’ memorials at Thukla Pass."
+        },
+        {
+          "day": 9,
+          "title": "Trek to Gorak Shep (5,164 m) and Everest Base Camp (5,364 m)",
+          "description": "Follow the Khumbu glacier to base camp, then return to Gorak Shep."
+        },
+        {
+          "day": 10,
+          "title": "Kala Patthar (5,545 m), trek to Pheriche (4,371 m)",
+          "description": "Early sunrise climb for the classic Everest view, then descend."
+        },
+        {
+          "day": 11,
+          "title": "Trek to Namche Bazaar (3,440 m)",
+          "description": "Long descent back through rhododendron forests."
+        },
+        {
+          "day": 12,
+          "title": "Trek to Lukla (2,860 m)",
+          "description": "Final day on the trail and a farewell evening with the crew."
+        },
+        {
+          "day": 13,
+          "title": "Fly to Kathmandu",
+          "description": "Morning flight back to Kathmandu; free afternoon."
+        },
+        {
+          "day": 14,
+          "title": "Departure",
+          "description": "Transfer to the airport for your flight home."
+        }
+      ],
+      "includes": [
+        "Airport pick-up and drop-off in a private vehicle",
+        "Licensed, English-speaking trekking guide",
+        "Porter service (1 porter for 2 trekkers)",
+        "Teahouse accommodation during the trek",
+        "Breakfast, lunch and dinner during the trek",
+        "All necessary permits and TIMS/entry fees",
+        "Staff salary, insurance, food and lodging",
+        "First-aid kit and oximeter",
+        "Kathmandu–Lukla–Kathmandu flights",
+        "3 nights hotel in Kathmandu with breakfast"
+      ],
+      "excludes": [
+        "International flights and Nepal visa fee",
+        "Meals in Kathmandu and Pokhara",
+        "Travel and rescue insurance (mandatory)",
+        "Personal expenses: drinks, hot showers, Wi-Fi, charging",
+        "Tips for guides and porters"
+      ],
+      "faqs": [
+        {
+          "question": "How difficult is the Everest Base Camp Trek?",
+          "answer": "It is a challenging trek because of the altitude, not technical difficulty. You walk 5–7 hours a day; anyone with good fitness and some hiking experience can complete it with proper acclimatization."
+        },
+        {
+          "question": "What is the best time for the Everest Base Camp Trek?",
+          "answer": "Spring (March–May) and autumn (September–November) offer the most stable weather and clearest mountain views."
+        },
+        {
+          "question": "Do I need travel insurance?",
+          "answer": "Yes. Insurance covering trekking up to 6,000 m and helicopter evacuation is mandatory for this trip."
+        }
+      ]
+    },
+    {
+      "slug": "annapurna-base-camp-trek",
+      "title": "Annapurna Base Camp Trek",
+      "destination": "nepal",
+      "region": "annapurna",
+      "activity": "trekking",
+      "featured": true,
+      "durationDays": 11,
+      "difficulty": "moderate",
+      "maxAltitude": 4130,
+      "price": 950,
+      "groupSize": "1–12",
+      "bestSeason": "Mar–May, Sep–Nov",
+      "startEnd": "Kathmandu / Kathmandu",
+      "accommodation": "Hotels in Kathmandu & Pokhara, teahouses on trek",
+      "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?auto=format&fit=crop&w=1600&q=75",
+      "summary": "Walk through Gurung villages and bamboo forests into the Annapurna Sanctuary, a ring of 7,000–8,000 m peaks around Annapurna Base Camp.",
+      "overview": [
+        "The Annapurna Base Camp (ABC) Trek takes you from the lakeside city of Pokhara into the Annapurna Sanctuary, a glacial basin surrounded by Annapurna I, Machhapuchhre (Fishtail) and Hiunchuli.",
+        "It is shorter and lower than the Everest trek, making it ideal for first-time Himalayan trekkers. The return route passes the natural hot springs at Jhinu Danda."
+      ],
+      "highlights": [
+        "Sunrise at Annapurna Base Camp (4,130 m)",
+        "Close-up views of sacred Machhapuchhre",
+        "Traditional Gurung village of Chhomrong",
+        "Natural hot springs at Jhinu Danda",
+        "Lakeside Pokhara"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kathmandu (1,400 m)",
+          "description": "Airport pick-up and trip briefing."
+        },
+        {
+          "day": 2,
+          "title": "Drive to Pokhara (822 m)",
+          "description": "Scenic 6–7 hour drive along the Trishuli river."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Siwai, trek to Chhomrong (2,170 m)",
+          "description": "Short drive then climb through terraced farmland."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Bamboo (2,310 m)",
+          "description": "Descend and climb through bamboo and rhododendron forest."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Deurali (3,230 m)",
+          "description": "Enter the narrow Modi Khola gorge."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Annapurna Base Camp (4,130 m) via Machhapuchhre Base Camp",
+          "description": "Climb into the sanctuary surrounded by giant peaks."
+        },
+        {
+          "day": 7,
+          "title": "Sunrise at ABC, trek to Bamboo (2,310 m)",
+          "description": "Watch the peaks light up, then descend."
+        },
+        {
+          "day": 8,
+          "title": "Trek to Jhinu Danda (1,780 m)",
+          "description": "Relax in the natural hot springs."
+        },
+        {
+          "day": 9,
+          "title": "Trek and drive to Pokhara",
+          "description": "Short walk to the road head and drive back to Pokhara."
+        },
+        {
+          "day": 10,
+          "title": "Drive to Kathmandu",
+          "description": "Return drive; farewell dinner."
+        },
+        {
+          "day": 11,
+          "title": "Departure",
+          "description": "Transfer to the airport."
+        }
+      ],
+      "includes": [
+        "Airport pick-up and drop-off in a private vehicle",
+        "Licensed, English-speaking trekking guide",
+        "Porter service (1 porter for 2 trekkers)",
+        "Teahouse accommodation during the trek",
+        "Breakfast, lunch and dinner during the trek",
+        "All necessary permits and TIMS/entry fees",
+        "Staff salary, insurance, food and lodging",
+        "First-aid kit and oximeter",
+        "Tourist bus Kathmandu–Pokhara–Kathmandu",
+        "ACAP permit"
+      ],
+      "excludes": [
+        "International flights and Nepal visa fee",
+        "Meals in Kathmandu and Pokhara",
+        "Travel and rescue insurance (mandatory)",
+        "Personal expenses: drinks, hot showers, Wi-Fi, charging",
+        "Tips for guides and porters"
+      ],
+      "faqs": [
+        {
+          "question": "Is the Annapurna Base Camp Trek good for beginners?",
+          "answer": "Yes. With a maximum altitude of 4,130 m and good teahouses, ABC is one of the best first Himalayan treks for fit beginners."
+        },
+        {
+          "question": "Can I trek to ABC in the monsoon?",
+          "answer": "It is possible but trails are slippery and views are often cloudy. We recommend spring or autumn."
+        }
+      ]
+    },
+    {
+      "slug": "langtang-valley-trek",
+      "title": "Langtang Valley Trek",
+      "destination": "nepal",
+      "region": "langtang",
+      "activity": "trekking",
+      "featured": true,
+      "durationDays": 9,
+      "difficulty": "moderate",
+      "maxAltitude": 4773,
+      "price": 750,
+      "groupSize": "1–12",
+      "bestSeason": "Mar–May, Sep–Dec",
+      "startEnd": "Kathmandu / Kathmandu",
+      "accommodation": "Hotel in Kathmandu, teahouses on trek",
+      "image": "https://images.unsplash.com/photo-1581791534721-e599df4417f7?auto=format&fit=crop&w=1600&q=75",
+      "summary": "A short, scenic trek close to Kathmandu through forests and yak pastures to Kyanjin Gompa, surrounded by glaciers and Tamang villages.",
+      "overview": [
+        "The Langtang Valley Trek starts just a day’s drive from Kathmandu, making it perfect if you have limited time. The trail follows the Langtang Khola through lush forest into a wide glacial valley.",
+        "At Kyanjin Gompa you can climb Kyanjin Ri (4,773 m) for panoramic views of Langtang Lirung and the Tibetan border peaks."
+      ],
+      "highlights": [
+        "No flights needed – starts by road from Kathmandu",
+        "Tamang culture and hospitality",
+        "Kyanjin Gompa monastery and cheese factory",
+        "Panoramic views from Kyanjin Ri (4,773 m)"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kathmandu (1,400 m)",
+          "description": "Airport pick-up and trip briefing."
+        },
+        {
+          "day": 2,
+          "title": "Drive to Syabrubesi (1,503 m)",
+          "description": "7–8 hour scenic drive north of Kathmandu."
+        },
+        {
+          "day": 3,
+          "title": "Trek to Lama Hotel (2,470 m)",
+          "description": "Follow the river through dense forest."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Langtang Village (3,430 m)",
+          "description": "The valley opens up with yak pastures."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Kyanjin Gompa (3,870 m)",
+          "description": "Short walk to the monastery and glacier views."
+        },
+        {
+          "day": 6,
+          "title": "Hike Kyanjin Ri (4,773 m)",
+          "description": "Morning climb for 360° views, afternoon exploring."
+        },
+        {
+          "day": 7,
+          "title": "Trek to Lama Hotel (2,470 m)",
+          "description": "Descend back through the valley."
+        },
+        {
+          "day": 8,
+          "title": "Trek to Syabrubesi (1,503 m)",
+          "description": "Last day on the trail."
+        },
+        {
+          "day": 9,
+          "title": "Drive to Kathmandu",
+          "description": "Return drive; farewell dinner."
+        }
+      ],
+      "includes": [
+        "Airport pick-up and drop-off in a private vehicle",
+        "Licensed, English-speaking trekking guide",
+        "Porter service (1 porter for 2 trekkers)",
+        "Teahouse accommodation during the trek",
+        "Breakfast, lunch and dinner during the trek",
+        "All necessary permits and TIMS/entry fees",
+        "Staff salary, insurance, food and lodging",
+        "First-aid kit and oximeter",
+        "Kathmandu–Syabrubesi–Kathmandu transport",
+        "Langtang National Park permit"
+      ],
+      "excludes": [
+        "International flights and Nepal visa fee",
+        "Meals in Kathmandu and Pokhara",
+        "Travel and rescue insurance (mandatory)",
+        "Personal expenses: drinks, hot showers, Wi-Fi, charging",
+        "Tips for guides and porters"
+      ],
+      "faqs": [
+        {
+          "question": "How far is Langtang from Kathmandu?",
+          "answer": "Syabrubesi, the trailhead, is about 120 km (7–8 hours by road) from Kathmandu."
+        }
+      ]
+    },
+    {
+      "slug": "manaslu-circuit-trek",
+      "title": "Manaslu Circuit Trek",
+      "destination": "nepal",
+      "region": "manaslu",
+      "activity": "trekking",
+      "featured": true,
+      "durationDays": 15,
+      "difficulty": "strenuous",
+      "maxAltitude": 5106,
+      "price": 1650,
+      "groupSize": "2–12",
+      "bestSeason": "Mar–May, Sep–Nov",
+      "startEnd": "Kathmandu / Kathmandu",
+      "accommodation": "Hotel in Kathmandu, teahouses on trek",
+      "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=75",
+      "summary": "A remote, off-the-beaten-path circuit around Manaslu (8,163 m), crossing the Larkya La pass through Tibetan-Buddhist villages.",
+      "overview": [
+        "The Manaslu Circuit is a restricted-area trek that circles the world’s eighth highest mountain. It combines subtropical river valleys with high alpine villages like Samagaun and Samdo.",
+        "The crossing of the Larkya La (5,106 m) is one of the most dramatic pass crossings in Nepal, with views of Himlung, Cheo Himal and Annapurna II."
+      ],
+      "highlights": [
+        "Remote trail with far fewer trekkers",
+        "Tibetan-Buddhist culture in Samagaun and Samdo",
+        "Crossing the Larkya La pass (5,106 m)",
+        "Views of Manaslu, the world’s 8th highest peak"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kathmandu (1,400 m)",
+          "description": "Airport pick-up and permit processing."
+        },
+        {
+          "day": 2,
+          "title": "Drive to Machha Khola (930 m)",
+          "description": "Long drive via Arughat along the Budhi Gandaki."
+        },
+        {
+          "day": 3,
+          "title": "Trek to Jagat (1,340 m)",
+          "description": "Enter the Manaslu Conservation Area."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Deng (1,860 m)",
+          "description": "Enter the restricted area."
+        },
+        {
+          "day": 5,
+          "title": "Trek to Namrung (2,630 m)",
+          "description": "Forests, waterfalls and mani walls."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Lho (3,180 m)",
+          "description": "First big views of Manaslu."
+        },
+        {
+          "day": 7,
+          "title": "Trek to Samagaun (3,530 m)",
+          "description": "Largest village in the upper valley."
+        },
+        {
+          "day": 8,
+          "title": "Acclimatization day in Samagaun",
+          "description": "Hike to Birendra Lake or Manaslu Base Camp viewpoint."
+        },
+        {
+          "day": 9,
+          "title": "Trek to Samdo (3,875 m)",
+          "description": "Village close to the Tibetan border."
+        },
+        {
+          "day": 10,
+          "title": "Trek to Dharamsala (4,460 m)",
+          "description": "Short day to the base of the pass."
+        },
+        {
+          "day": 11,
+          "title": "Cross Larkya La (5,106 m), trek to Bimthang (3,720 m)",
+          "description": "Early start for the longest and highest day."
+        },
+        {
+          "day": 12,
+          "title": "Trek to Tilije (2,300 m)",
+          "description": "Descend through pine and rhododendron forest."
+        },
+        {
+          "day": 13,
+          "title": "Drive to Kathmandu via Besisahar",
+          "description": "Jeep and bus back to Kathmandu."
+        },
+        {
+          "day": 14,
+          "title": "Free day in Kathmandu",
+          "description": "Rest or optional sightseeing."
+        },
+        {
+          "day": 15,
+          "title": "Departure",
+          "description": "Transfer to the airport."
+        }
+      ],
+      "includes": [
+        "Airport pick-up and drop-off in a private vehicle",
+        "Licensed, English-speaking trekking guide",
+        "Porter service (1 porter for 2 trekkers)",
+        "Teahouse accommodation during the trek",
+        "Breakfast, lunch and dinner during the trek",
+        "All necessary permits and TIMS/entry fees",
+        "Staff salary, insurance, food and lodging",
+        "First-aid kit and oximeter",
+        "Manaslu Restricted Area Permit, MCAP and ACAP permits",
+        "Private jeep/bus transport"
+      ],
+      "excludes": [
+        "International flights and Nepal visa fee",
+        "Meals in Kathmandu and Pokhara",
+        "Travel and rescue insurance (mandatory)",
+        "Personal expenses: drinks, hot showers, Wi-Fi, charging",
+        "Tips for guides and porters"
+      ],
+      "faqs": [
+        {
+          "question": "Can I trek the Manaslu Circuit solo?",
+          "answer": "No. Manaslu is a restricted area: you need a licensed guide and a minimum of two trekkers to get the permit. We can help you join a group."
+        }
+      ]
+    },
+    {
+      "slug": "island-peak-climbing",
+      "title": "Island Peak Climbing",
+      "destination": "nepal",
+      "region": "everest",
+      "activity": "peak-climbing",
+      "featured": true,
+      "durationDays": 18,
+      "difficulty": "strenuous",
+      "maxAltitude": 6189,
+      "price": 2450,
+      "groupSize": "2–10",
+      "bestSeason": "Apr–May, Oct–Nov",
+      "startEnd": "Kathmandu / Kathmandu",
+      "accommodation": "Hotel, teahouses and tented base camp",
+      "image": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1600&q=75",
+      "summary": "Combine the Everest trail with a guided ascent of Island Peak (Imja Tse, 6,189 m) – the most popular trekking peak in Nepal.",
+      "overview": [
+        "Island Peak Climbing is the perfect introduction to Himalayan mountaineering. You follow the Everest trail to Dingboche and Chhukung for acclimatization, then set up base camp below the peak.",
+        "On summit day you climb fixed ropes up the headwall to the summit ridge with an experienced climbing guide, enjoying views of Lhotse, Makalu and Ama Dablam."
+      ],
+      "highlights": [
+        "Summit a 6,000 m Himalayan peak",
+        "Pre-climb training at base camp",
+        "Views of Lhotse’s south face and Makalu",
+        "Classic Everest region trail and Sherpa culture"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kathmandu (1,400 m)",
+          "description": "Airport pick-up."
+        },
+        {
+          "day": 2,
+          "title": "Preparation day in Kathmandu",
+          "description": "Climbing permit, equipment check and briefing."
+        },
+        {
+          "day": 3,
+          "title": "Fly to Lukla, trek to Phakding (2,610 m)",
+          "description": "Mountain flight and short walk."
+        },
+        {
+          "day": 4,
+          "title": "Trek to Namche Bazaar (3,440 m)",
+          "description": "Climb to the Sherpa capital."
+        },
+        {
+          "day": 5,
+          "title": "Acclimatization day in Namche",
+          "description": "Short hike and rest."
+        },
+        {
+          "day": 6,
+          "title": "Trek to Tengboche (3,860 m)",
+          "description": "Visit the monastery."
+        },
+        {
+          "day": 7,
+          "title": "Trek to Dingboche (4,410 m)",
+          "description": "Into the Imja valley."
+        },
+        {
+          "day": 8,
+          "title": "Trek to Chhukung (4,730 m)",
+          "description": "Short day to the last village."
+        },
+        {
+          "day": 9,
+          "title": "Acclimatization hike to Chhukung Ri (5,550 m)",
+          "description": "Climb high, sleep low."
+        },
+        {
+          "day": 10,
+          "title": "Trek to Island Peak Base Camp (5,087 m)",
+          "description": "Set up tented base camp."
+        },
+        {
+          "day": 11,
+          "title": "Pre-climb training",
+          "description": "Practice with crampons, ropes and ascenders."
+        },
+        {
+          "day": 12,
+          "title": "Summit Island Peak (6,189 m), return to base camp",
+          "description": "Very early start; 10–12 hour day."
+        },
+        {
+          "day": 13,
+          "title": "Reserve day",
+          "description": "Spare day for bad weather."
+        },
+        {
+          "day": 14,
+          "title": "Trek to Pangboche (3,985 m)",
+          "description": "Descend through the valley."
+        },
+        {
+          "day": 15,
+          "title": "Trek to Namche Bazaar (3,440 m)",
+          "description": "Back to Namche."
+        },
+        {
+          "day": 16,
+          "title": "Trek to Lukla (2,860 m)",
+          "description": "Final trekking day."
+        },
+        {
+          "day": 17,
+          "title": "Fly to Kathmandu",
+          "description": "Morning flight."
+        },
+        {
+          "day": 18,
+          "title": "Departure",
+          "description": "Transfer to the airport."
+        }
+      ],
+      "includes": [
+        "Airport pick-up and drop-off in a private vehicle",
+        "Licensed, English-speaking trekking guide",
+        "Porter service (1 porter for 2 trekkers)",
+        "Teahouse accommodation during the trek",
+        "Breakfast, lunch and dinner during the trek",
+        "All necessary permits and TIMS/entry fees",
+        "Staff salary, insurance, food and lodging",
+        "First-aid kit and oximeter",
+        "Island Peak climbing permit",
+        "Experienced climbing guide",
+        "Group climbing gear (ropes, tents at base camp)",
+        "Kathmandu–Lukla–Kathmandu flights"
+      ],
+      "excludes": [
+        "International flights and Nepal visa fee",
+        "Meals in Kathmandu and Pokhara",
+        "Travel and rescue insurance (mandatory)",
+        "Personal expenses: drinks, hot showers, Wi-Fi, charging",
+        "Tips for guides and porters",
+        "Personal climbing gear (can be rented in Kathmandu)"
+      ],
+      "faqs": [
+        {
+          "question": "Do I need climbing experience for Island Peak?",
+          "answer": "No previous climbing experience is required, but you should be very fit and comfortable at altitude. Basic training is given at base camp."
+        }
+      ]
+    },
+    {
+      "slug": "kathmandu-valley-heritage-tour",
+      "title": "Kathmandu Valley Heritage Tour",
+      "destination": "nepal",
+      "region": null,
+      "activity": "tours",
+      "featured": true,
+      "durationDays": 4,
+      "difficulty": "easy",
+      "maxAltitude": 2175,
+      "price": 450,
+      "groupSize": "1–15",
+      "bestSeason": "All year",
+      "startEnd": "Kathmandu / Kathmandu",
+      "accommodation": "3-star hotel in Kathmandu",
+      "image": "https://images.unsplash.com/photo-1605640840605-14ac1855827b?auto=format&fit=crop&w=1600&q=75",
+      "summary": "Explore seven UNESCO World Heritage Sites in the Kathmandu Valley, from Boudhanath Stupa to the medieval city of Bhaktapur, plus Himalayan sunrise at Nagarkot.",
+      "overview": [
+        "This short cultural tour is perfect before or after a trek. With a licensed tour guide you will visit the great stupas of Boudhanath and Swayambhunath, the Hindu temple of Pashupatinath and the royal Durbar Squares of Kathmandu, Patan and Bhaktapur."
+      ],
+      "highlights": [
+        "Boudhanath and Swayambhunath stupas",
+        "Pashupatinath Temple on the Bagmati river",
+        "Durbar Squares of Kathmandu, Patan and Bhaktapur",
+        "Himalayan sunrise from Nagarkot (2,175 m)"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Kathmandu",
+          "description": "Airport pick-up and evening walk in Thamel."
+        },
+        {
+          "day": 2,
+          "title": "Kathmandu sightseeing",
+          "description": "Pashupatinath, Boudhanath, Swayambhunath and Kathmandu Durbar Square."
+        },
+        {
+          "day": 3,
+          "title": "Patan and Bhaktapur, drive to Nagarkot",
+          "description": "Newari architecture, then sunset over the Himalayas."
+        },
+        {
+          "day": 4,
+          "title": "Nagarkot sunrise and departure",
+          "description": "Sunrise view, drive back to Kathmandu airport."
+        }
+      ],
+      "includes": [
+        "Airport transfers",
+        "Hotel accommodation with breakfast",
+        "Licensed city tour guide",
+        "Private vehicle for sightseeing",
+        "All entrance fees"
+      ],
+      "excludes": [
+        "International flights and visa",
+        "Lunch and dinner",
+        "Personal expenses and tips"
+      ],
+      "faqs": []
+    },
+    {
+      "slug": "lhasa-city-tour",
+      "title": "Lhasa City Tour",
+      "destination": "tibet",
+      "region": null,
+      "activity": "tours",
+      "featured": false,
+      "durationDays": 5,
+      "difficulty": "moderate",
+      "maxAltitude": 3656,
+      "price": 1350,
+      "groupSize": "2–15",
+      "bestSeason": "Apr–Oct",
+      "startEnd": "Kathmandu / Lhasa",
+      "accommodation": "Hotels in Lhasa",
+      "image": "https://images.unsplash.com/photo-1571401835393-8c5f35328320?auto=format&fit=crop&w=1600&q=75",
+      "summary": "Fly over the Himalayas from Kathmandu to Lhasa and discover the Potala Palace, Jokhang Temple and the great monasteries of Drepung and Sera.",
+      "overview": [
+        "A short introduction to Tibet’s spiritual capital. We arrange your Tibet Travel Permit and Chinese group visa in Kathmandu, and a licensed Tibetan guide accompanies you throughout."
+      ],
+      "highlights": [
+        "Potala Palace",
+        "Jokhang Temple and Barkhor pilgrim circuit",
+        "Monk debates at Sera Monastery",
+        "Flight over the Himalayas"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Fly Kathmandu to Lhasa (3,656 m)",
+          "description": "Rest to acclimatize."
+        },
+        {
+          "day": 2,
+          "title": "Potala Palace and Jokhang Temple",
+          "description": "Walk the Barkhor pilgrim circuit."
+        },
+        {
+          "day": 3,
+          "title": "Drepung and Sera monasteries",
+          "description": "Watch the afternoon monk debates."
+        },
+        {
+          "day": 4,
+          "title": "Free day in Lhasa",
+          "description": "Optional excursions or shopping."
+        },
+        {
+          "day": 5,
+          "title": "Departure",
+          "description": "Transfer to Gonggar airport."
+        }
+      ],
+      "includes": [
+        "Tibet Travel Permit and group visa processing",
+        "Hotels with breakfast",
+        "Licensed Tibetan guide",
+        "Private vehicle and entrance fees"
+      ],
+      "excludes": [
+        "Kathmandu–Lhasa flights",
+        "Lunch and dinner",
+        "Personal expenses and tips"
+      ],
+      "faqs": []
+    },
+    {
+      "slug": "bhutan-highlights-tour",
+      "title": "Bhutan Highlights Tour",
+      "destination": "bhutan",
+      "region": null,
+      "activity": "tours",
+      "featured": false,
+      "durationDays": 6,
+      "difficulty": "easy",
+      "maxAltitude": 3120,
+      "price": 1950,
+      "groupSize": "1–12",
+      "bestSeason": "Mar–May, Sep–Nov",
+      "startEnd": "Paro / Paro",
+      "accommodation": "3-star hotels",
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1600&q=75",
+      "summary": "Paro, Thimphu and Punakha plus the unforgettable hike to Tiger’s Nest Monastery, clinging to a cliff 900 m above the Paro valley.",
+      "overview": [
+        "Discover the Land of the Thunder Dragon on this all-inclusive tour. Bhutan’s Sustainable Development Fee, visa processing, guide, vehicle and meals are all arranged for you."
+      ],
+      "highlights": [
+        "Tiger’s Nest (Taktsang) hike",
+        "Punakha Dzong",
+        "Dochula Pass with 108 chortens",
+        "Thimphu’s Buddha Dordenma"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive in Paro, drive to Thimphu (2,320 m)",
+          "description": "Scenic drive along the Paro and Wang rivers."
+        },
+        {
+          "day": 2,
+          "title": "Thimphu sightseeing",
+          "description": "Buddha Dordenma, Tashichho Dzong and local markets."
+        },
+        {
+          "day": 3,
+          "title": "Drive to Punakha via Dochula Pass (3,100 m)",
+          "description": "Visit Punakha Dzong at the river confluence."
+        },
+        {
+          "day": 4,
+          "title": "Drive to Paro",
+          "description": "Visit Rinpung Dzong and the National Museum."
+        },
+        {
+          "day": 5,
+          "title": "Hike to Tiger’s Nest (3,120 m)",
+          "description": "Half-day hike to Bhutan’s most iconic monastery."
+        },
+        {
+          "day": 6,
+          "title": "Departure",
+          "description": "Transfer to Paro airport."
+        }
+      ],
+      "includes": [
+        "Bhutan visa and Sustainable Development Fee",
+        "Hotels with all meals",
+        "Licensed Bhutanese guide",
+        "Private vehicle and entrance fees"
+      ],
+      "excludes": [
+        "Flights to and from Paro",
+        "Drinks, personal expenses and tips"
+      ],
+      "faqs": []
+    }
+  ],
+  "posts": [
+    {
+      "slug": "best-time-to-trek-in-nepal",
+      "title": "Best Time to Trek in Nepal: A Season-by-Season Guide",
+      "excerpt": "Spring and autumn are the classic trekking seasons, but winter and monsoon have their own rewards. Here is how to choose the right month for your trek.",
+      "image": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1600&q=75",
+      "author": "Kiteice Team",
+      "publishedAt": "2026-09-01",
+      "tags": [
+        "Planning",
+        "Seasons"
+      ],
+      "sections": [
+        {
+          "heading": "Autumn (September–November)",
+          "paragraphs": [
+            "Autumn is the most popular trekking season in Nepal. The monsoon rains clear the dust from the air, giving crisp mountain views and stable weather. Trails and teahouses are busiest in October."
+          ]
+        },
+        {
+          "heading": "Spring (March–May)",
+          "paragraphs": [
+            "Spring brings warmer temperatures and rhododendron forests in full bloom. It is also Everest expedition season, so base camp is full of climbers’ tents."
+          ]
+        },
+        {
+          "heading": "Winter and monsoon",
+          "paragraphs": [
+            "Winter (December–February) is cold at altitude but quiet and clear – ideal for lower treks like Langtang or Ghorepani. Monsoon (June–August) is wet in most regions, but rain-shadow areas like Upper Mustang are excellent."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "how-to-prepare-for-everest-base-camp-trek",
+      "title": "How to Prepare for the Everest Base Camp Trek",
+      "excerpt": "A practical training plan, packing tips and altitude advice to help you reach Everest Base Camp feeling strong.",
+      "image": "https://images.unsplash.com/photo-1486911278844-a81c5267e227?auto=format&fit=crop&w=1600&q=75",
+      "author": "Kiteice Team",
+      "publishedAt": "2026-08-15",
+      "tags": [
+        "Everest",
+        "Fitness"
+      ],
+      "sections": [
+        {
+          "heading": "Start training 8–12 weeks before",
+          "paragraphs": [
+            "Focus on cardio endurance: hiking with a loaded backpack, stair climbing, cycling and running. Aim for at least one long hike of 5–6 hours per week in the last month."
+          ]
+        },
+        {
+          "heading": "Pack light but smart",
+          "paragraphs": [
+            "Porters carry up to 10–12 kg per trekker. Bring layers rather than bulky items: thermal base layers, a fleece, a down jacket, a waterproof shell and a good sleeping bag rated to –10 °C."
+          ]
+        },
+        {
+          "heading": "Respect the altitude",
+          "paragraphs": [
+            "Walk slowly, drink 3–4 litres of water a day and use the acclimatization days. Tell your guide about any headache, nausea or dizziness straight away."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "altitude-sickness-prevention-tips",
+      "title": "Altitude Sickness: Symptoms and Prevention Tips for Trekkers",
+      "excerpt": "Acute Mountain Sickness can affect anyone above 2,500 m. Learn the warning signs and the simple rules that keep you safe in the Himalayas.",
+      "image": "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&w=1600&q=75",
+      "author": "Kiteice Team",
+      "publishedAt": "2026-07-20",
+      "tags": [
+        "Safety",
+        "Health"
+      ],
+      "sections": [
+        {
+          "heading": "Know the symptoms",
+          "paragraphs": [
+            "Common early symptoms of Acute Mountain Sickness (AMS) are headache, loss of appetite, nausea, fatigue and poor sleep. Serious forms (HAPE and HACE) cause breathlessness at rest, confusion and loss of coordination and need immediate descent."
+          ]
+        },
+        {
+          "heading": "Golden rules",
+          "paragraphs": [
+            "Above 3,000 m, increase your sleeping altitude by no more than 300–500 m per day, take a rest day every 3–4 days, and never go higher with symptoms. Consult your doctor before the trip about medication such as acetazolamide."
+          ]
+        }
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Your Client’s Name",
+      "country": "Country",
+      "trip": "Everest Base Camp Trek",
+      "rating": 5,
+      "quote": "Replace this with a real review from one of your trekkers. Two or three sentences about their guide and experience work best."
+    },
+    {
+      "name": "Your Client’s Name",
+      "country": "Country",
+      "trip": "Annapurna Base Camp Trek",
+      "rating": 5,
+      "quote": "Replace this with a real review. Mention of specific details (guide’s name, a favourite day) makes reviews more trustworthy."
+    },
+    {
+      "name": "Your Client’s Name",
+      "country": "Country",
+      "trip": "Kathmandu Valley Heritage Tour",
+      "rating": 5,
+      "quote": "Replace this with a real review. You can also link to your TripAdvisor or Google reviews page from here."
+    }
+  ],
+  "settings": {
+    "company": {
+      "name": "Kiteice Travel and Treks",
+      "legalName": "Kiteice Travel and Treks (P). Ltd",
+      "shortName": "Kiteice Treks",
+      "tagline": "Trekking, Tours & Adventures in the Himalayas",
+      "description": "Kiteice Travel and Treks is a Kathmandu-based trekking and tour operator offering Everest, Annapurna, Langtang and Manaslu treks, peak climbing and cultural tours in Nepal, Tibet and Bhutan.",
+      "keywords": [
+        "Nepal trekking",
+        "Everest Base Camp trek",
+        "Annapurna Base Camp trek",
+        "Langtang trek",
+        "Manaslu Circuit trek",
+        "Island Peak climbing",
+        "Nepal tour packages",
+        "Tibet tour",
+        "Bhutan tour",
+        "trekking agency in Nepal"
+      ]
+    },
+    "contact": {
+      "phone": "+977 9861631483",
+      "whatsapp": "+9779861631483",
+      "email": "info@yourdomain.com",
+      "hours": "Sun–Fri, 9:00 AM – 6:00 PM (NPT)",
+      "address": {
+        "street": "Thamel",
+        "city": "Kathmandu",
+        "region": "Bagmati",
+        "postalCode": "44600",
+        "country": "NP",
+        "countryName": "Nepal"
+      }
+    },
+    "social": {
+      "facebook": "",
+      "instagram": "",
+      "youtube": "",
+      "tripadvisor": "",
+      "tiktok": "",
+      "x": ""
+    }
+  }
+}
